@@ -19,7 +19,7 @@ I am using this repository to strengthen my Python fundamentals and improve my p
 ## Learning Roadmap
 
 - [x] If Statement
-- [ ] If-Else
+- [x] If-Else
 - [ ] If-Elif-Else
 - [ ] Nested If
 - [ ] While Loop
