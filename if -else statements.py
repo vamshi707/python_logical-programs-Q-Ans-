@@ -23,7 +23,9 @@ else:
 year=int(input('enter a year'))
 
 if year%100==0:
-     print(10year%100,'the year of the centure')
+
+     print(year%100,'the year of the centure')
+
 else:
      print('not a centure year')
      
