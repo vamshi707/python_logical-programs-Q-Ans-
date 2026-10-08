@@ -1,5 +1,5 @@
 # IF - else statement
-'''
+
 # 1. write a python program that check if a given year leap year ?
 
 year=int(input('enter a year'))
@@ -23,22 +23,34 @@ else:
 year=int(input('enter a year'))
 
 if year%100==0:
-     print(year%100,'the year of the centure')
+     print(10year%100,'the year of the centure')
 else:
      print('not a centure year')
      
 #4. write a python program that checks if a given number is prime or not ?
-'''
+
 n=int(input('enter a number'))
+
 cnt=0
+ 
 
-if 1%n==0 or 2%n==0 or 3%n==0 or 4%n==0 or 5%n==0:
-
+if n%1==0:
      cnt=cnt+1
+if n%2==0:
+     cnt=cnt+1
+if n%3==0:
+     cnt=cnt+1
+if n%4==0:
+     cnt=cnt+1
+if n%5==0:
+     cnt=cnt+1
+
+    
 if cnt==2:
      print('prime')
 else:
      print('not a prime')
+ 
  
 
      
