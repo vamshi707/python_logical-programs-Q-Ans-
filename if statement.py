@@ -1,3 +1,5 @@
+# IF statement
+
 # 1. write python program that checks if a number is positive ?
 
 n=int(input('enter a number'))
