@@ -1,5 +1,5 @@
 # IF - else statement
-
+'''
 # 1. write a python program that check if a given year leap year ?
 
 year=int(input('enter a year'))
@@ -52,12 +52,39 @@ if cnt==2:
      print('prime')
 else:
      print('not a prime')
+
+#5. write a python program that checks if a person is eligable to vote based on their age?
+
+n=int(input('enter a person age'))
+
+if n>=18:
+     print('rights to vote')
+else:
+     print('he not eliagble for the vote')
+
+
+#6. write a python program that checks if a number is positive or non-positive('including zero')?
+
+n=int(input('enter a number'))
  
- 
+if n>0:
+     print('positive')
+else:
+     if n==0:
+          
+          print('u typed zero this value not suitable plzz press another value including zero')    
+          
+     print('not-positive')
+''' 
+#7. write a python program that compares two numbera and prints the largest one?
 
-     
+a=int(input('enter a number'))
+b=int(input('enter a another number'))
 
-
+if a>b:
+     print('largest number is=',a)
+else:
+     print('largest number is=',b)
 
 
 
