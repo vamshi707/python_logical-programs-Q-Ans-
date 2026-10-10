@@ -195,7 +195,6 @@ else:
 #15 write a program that checks the number multiple of 7 or not?
 
 n=int(input('enter a number'))
-
 if n%7==0:
      print('this number muntiple with 7')
 else:
