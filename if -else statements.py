@@ -198,4 +198,4 @@ n=int(input('enter a number'))
 if n%7==0:
      print('this number muntiple with 7')
 else:
-     print('this number not multiple with 7')
+     print('this number not multiple  7')
