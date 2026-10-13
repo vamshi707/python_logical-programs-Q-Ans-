@@ -4,9 +4,7 @@
 print(('1.fahrenheit report'))
 print(('2.celsius report'))
 print()
-
 while True:
-
     choose=int(input('enter your choice:= '))
 
     if choose==1:
