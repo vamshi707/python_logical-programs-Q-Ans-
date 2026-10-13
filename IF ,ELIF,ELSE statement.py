@@ -60,22 +60,22 @@ while True:
         a=int(input('enter a first number'))
         b=int(input('plzz enter a another number'))
         c=a-b
-        print('the two number addition',c)
+        print('the two number substraction',c)
     elif choose=='*':
         a=int(input('enter a first number'))
         b=int(input('plzz enter a another number'))
         c=a*b
-        print('the two number addition',c)
+        print('the two number multiplications',c)
     elif choose=='%':
         a=int(input('enter a first number'))
         b=int(input('plzz enter a another number'))
         c=a%b
-        print('the two number addition',c)
+        print('the two number division',c)
     elif choose=='/':
         a=int(input('enter a first number'))
         b=int(input('plzz enter a another number'))
-        c=a%b
-        print('the two number addition',c)
+        c=a/b
+        print('the two number float division',c)
     else:
         print('invalide')
     m=input('enter a another number yes/no/exit').lower()
@@ -91,7 +91,9 @@ while True:
         print('thank you')
         break
  
- 
+
+
+
 
         
         
