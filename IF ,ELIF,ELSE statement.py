@@ -1,6 +1,6 @@
-# IF ,ELIF,ELSE statement
+# IF ,ELIF,ELSE statement(basic project)
 
-#wtite a python program that converts a temperature in calsius to fahrenheit or vice versa based in user input?
+#1 .wtite a python program that converts a temperature in calsius to fahrenheit or vice versa based in user input?
 print(('1.fahrenheit report'))
 print(('2.celsius report'))
 print()
@@ -40,7 +40,8 @@ while True:
             print('thank you so much')
 
             break
-#write a simple calculator program that performs basic arthmetic operations (+,- *,%)based on the user input?
+        
+#2.write a simple calculator program that performs basic arthmetic operations (+,- *,%)based on the user input?
 
 
 
