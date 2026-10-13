@@ -4,7 +4,9 @@
 print(('1.fahrenheit report'))
 print(('2.celsius report'))
 print()
+
 while True:
+
     choose=int(input('enter your choice:= '))
 
     if choose==1:
@@ -38,6 +40,9 @@ while True:
             print('thank you so much')
 
             break
+#write a simple calculator program that performs basic arthmetic operations (+,- *,%)based on the user input?
+
+
 
  
 
