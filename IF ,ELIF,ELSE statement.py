@@ -90,7 +90,59 @@ while True:
     if k=='exit':
         print('thank you')
         break
- 
+
+
+#3. write a python program for a simple "guess the number" game generated a random number and have the user guess it?
+
+import random
+
+print('             GUESS THE NUMBER GAME')
+print()
+
+num = random.randint(1, 100)
+
+while True:
+    print('         WELCOME TO THE GUESSING GAME')
+    print()
+
+
+    guess = int(input('Can you guess the number between 1 and 100: '))
+
+    if guess == num:
+        print('Your guess is correct!')
+        print('Congratulations! You won the game!')
+        break
+
+    elif guess < 40 and guess < num:
+        print('Your guessing number is very low. Please choose a higher number.')
+
+    elif guess < num:
+        print('Your guessing number is low. Please choose a higher number.')
+
+    elif guess > 80 and guess > num:
+        print('Your guessing number is very high. Please choose a lower number.')
+
+    elif guess > num:
+        print('Your guessing number is high. Please choose a lower number.')
+
+    else:
+        print('Invalid input! Please enter a number between 1 and 100.')
+
+    print()
+
+    m = input('Do you want to continue? Type yes/no: ').lower()
+
+    if m == 'no':
+        print()
+        print('Thank you for playing this game!')
+        break
+
+    print()
+
+
+
+
+
 
 
 
