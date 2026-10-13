@@ -40,8 +40,72 @@ while True:
             print('thank you so much')
 
             break
-        
+     
 #2.write a simple calculator program that performs basic arthmetic operations (+,- *,%)based on the user input?
+
+print('wellcome to the calculator')
+
+ 
+print()
+
+while True:
+    choose=input('calculations .choose the simbles= + - * / %').lower()
+    
+    if choose=='+':
+        a=int(input('enter a first number'))
+        b=int(input('plzz enter a another number'))
+        c=a+b
+        print('the two number addition',c)
+    elif choose=='-':
+        a=int(input('enter a first number'))
+        b=int(input('plzz enter a another number'))
+        c=a-b
+        print('the two number addition',c)
+    elif choose=='*':
+        a=int(input('enter a first number'))
+        b=int(input('plzz enter a another number'))
+        c=a*b
+        print('the two number addition',c)
+    elif choose=='%':
+        a=int(input('enter a first number'))
+        b=int(input('plzz enter a another number'))
+        c=a%b
+        print('the two number addition',c)
+    elif choose=='/':
+        a=int(input('enter a first number'))
+        b=int(input('plzz enter a another number'))
+        c=a%b
+        print('the two number addition',c)
+    else:
+        print('invalide')
+    m=input('enter a another number yes/no/exit').lower()
+
+
+    if m=='no':
+        print('thank you')
+    elif m=='exit':
+        print('thank you have a nice day')
+        break
+    k=input('can i calculation on the another symbles yes/exit').lower()
+    if k=='exit':
+        print('thank you')
+        break
+ 
+ 
+
+        
+        
+                
+                
+    
+    
+    
+ 
+ 
+        
+     
+
+
 
 
 
