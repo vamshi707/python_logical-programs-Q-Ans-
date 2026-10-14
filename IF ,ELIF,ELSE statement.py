@@ -1,5 +1,5 @@
 # IF ,ELIF,ELSE statement(basic project)
-
+'''
 #1 .wtite a python program that converts a temperature in calsius to fahrenheit or vice versa based in user input?
 print(('1.fahrenheit report'))
 print(('2.celsius report'))
@@ -170,11 +170,11 @@ print('        welcome to my fashion shop')
 print()
 
 while True:
-    print(f''' choose the dress:
+    print(f'' choose the dress:
 
                1.shirt
                2.pant
-               3.sarees''')
+               3.sarees'')
     
     choose=input('please enter the option wt u want like 1/2/3 :')
     if choose=='1':
@@ -301,42 +301,63 @@ while True:
         break
     
     print()
-        
-            
-        
-          
 
-
-
-
-
-
-
-
-
-
-
-
-        
-        
-                
-                
+#6. write a python program that simulates an ATM machine allowing user to check their balance and withdraw money?
+print('      HI CAN I HELP U ')
+while True:
+    print('  ATM union bank of india')
+    print()
+    print('1.check balance')
+    print('2.withdraw money')
+    print('3.exit')
+    print()
+    blc=5000
+    a=input('choose the option 1/2/3 :')
+    if a=='1':
+        print('your current balance is :',blc)
+    elif a=='2':
+        print('you choose the withdraw')
+        n=int(input('how much money u want to withdraw'))
+        if n>blc:
+            print('insuffent')
+        else:      
+            f=blc-n
+            print()
+            print('your widthdraw money:',n)
+            print()
+            print('your remaining main balance is:',f)
+    elif a=='3':
+        print('Thank you for using Union Bank of India ATM!')
+        break
+    else:
+        print('invalid number')
+    m=input('if u want to continue please enter yes/no')
+    if m=='no':
+        print('thankyou using ATM have a nice day!')
+        break
+''' 
+#7. write a python program that greets the user differentlybased on the time of day?
+while True:
     
-    
-    
- 
+    n=int(input('enter the time: 0 to 24 hrs:'))
+
+    if n>=4 and n<=12:
+        print ('good morning')
+    elif n>=13 and n<=16:
+        print('good afternoon')
+    elif n>=17 and n<=21:
+        print('good evening')
+    else:
+        print('good night')
+    m=input('if u want to wish again press yes/no').lower()
+    if m=='no':
+        print('thankyou have a grate wishes byee')
+        break
+     
  
         
      
 
-
-
-
-
- 
-
-    
-    
 
 
 
