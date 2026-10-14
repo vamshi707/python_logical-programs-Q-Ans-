@@ -139,6 +139,176 @@ while True:
 
     print()
 
+#4. write a python program that checks the strength of user password based on certain criteria ?
+print('          welcome to our application please register your password')
+
+while True:
+        
+    password=input('create  your password strong')
+
+    if len(password)<8:
+        print('week password')
+    elif password.isalpha():
+        print('the char must should in number also')
+    elif password.isdigit():
+        print('the password should be letter also')
+    elif password.isalnum():
+        print('password must be in the digits also')
+    else:
+        print('strong password create done')
+        
+
+    m=input('can u create again password yes/no').lower()
+
+    if m=='no':
+        print('thankyou')
+        break
+
+#5. write a python program that calculate the final price of an itam after applying a discount based on the purchase amount?
+
+print('        welcome to my fashion shop')
+print()
+
+while True:
+    print(f''' choose the dress:
+
+               1.shirt
+               2.pant
+               3.sarees''')
+    
+    choose=input('please enter the option wt u want like 1/2/3 :')
+    if choose=='1':
+        print('thank you for choosing shirt plzz choose the color and size')
+        print()
+        n=input('which color s u want please enter the red/blue/green :').lower()
+        print()
+          
+        if n=='red':
+            print(' thank you choose the ur feverate color:',n)
+        elif n=='blue':
+            print(' wow you choose the ur feverate color:',n)
+        elif n=='green':
+            print(' thank you choose the ur feverate color:',n)
+
+        m=input('please choose the size s/m/xl').lower()
+            
+            
+        if m=='s':
+            print('you choosing ',n,' :color shirt and size :',m)
+        elif m=='m':
+            print('you choosing ',n,' :color shirt and size :',m)
+        elif m=='xl':
+            print('you choosing ',n,' :color shirt and size :',m)
+            
+            
+            print()
+            print('   please bill  total price of the shirt with discount')
+            print()
+        p=int(input('enter the total prize of the shirt :'))
+        d=int(input('plzz enter a shirt discount percentage'))
+        
+        t=(d/100)* p
+        final_price=p-t
+        print('Original price:', p)
+        print('Discount amount:', t)
+        print()
+        print('Final price after discount:', final_price)
+        
+        
+    elif choose=='2':
+        
+        print('thank you for choosing pant plzz choose the color and size')
+        print()
+        n=input('which color s u want please enter the black/gray/light-blue :').lower()
+        print()
+          
+        if n=='black':
+            print(' thank you choose the ur feverate color:',n)
+        elif n=='light-blue':
+            print(' wow you choose the ur feverate color:',n)
+        elif n=='gray':
+            print(' thank you choose the ur feverate color:',n)
+
+        m=input('please choose the size s/m/xl').lower()
+            
+            
+        if m=='s':
+            print('you choosing ',n,' :color pant and size :',m)
+        elif m=='m':
+            print('you choosing ',n,' :color pant and size :',m)
+        elif m=='xl':
+            print('you choosing ',n,' :color pant and size :',m)
+            print()
+            print('   please bill  total price of the pant with discount')
+            print()
+        p=int(input('enter the total prize of the pant :'))
+        d=int(input('plzz enter a pant discount percentage'))
+        
+        t=(d/100)* p
+        final_price=p-t
+        print('Original price:', p)
+        print('Discount amount:', t)
+        print()
+        print('Final price after discount:', final_price)
+        
+        
+    elif choose=='3':
+        
+        print('thank you for choosing saree plzz choose the color and size')
+        print()
+        n=input('which colors u want please enter the green/lite-pink/light-blue :').lower()
+        print()
+          
+        if n=='green':
+            print(' thank you choose the ur feverate color:',n)
+        elif n=='light-blue':
+            print(' wow you choose the ur feverate color:',n)
+        elif n=='lite-pink':
+            print(' thank you choose the ur feverate color:',n)
+
+        m=input('please choose the size s/m/xl').lower()
+            
+            
+        if m=='s':
+            print('you choosing ',n,' :color saree and size :',m)
+        elif m=='m':
+            print('you choosing ',n,' :color saree and size :',m)
+        elif m=='xl':
+            print('you choosing ',n,' :color saree and size :',m)
+            print()
+            print('   please bill  total price of the saree with discount')
+            print()
+        p=int(input('enter the total prize of the saree :'))
+        d=int(input('plzz enter a saree discount percentage'))
+        
+        t=(d/100)* p
+        final_price=p-t
+        print('Original price:', p)
+        print('Discount amount:', t)
+        print()
+        print('Final price after discount:', final_price)
+        print()
+    else:
+        print('invalide please enter again')
+    print()
+
+    z=input('If u want to shopping again please enter yes/exit').lower()
+    print()
+
+    if z=='exit':
+        print('thankyou  for your shopping have nice day!')
+        
+        break
+    
+    print()
+        
+            
+        
+          
+
+
+
+
 
 
 
