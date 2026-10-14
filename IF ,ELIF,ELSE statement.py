@@ -335,7 +335,7 @@ while True:
     if m=='no':
         print('thankyou using ATM have a nice day!')
         break
-''' 
+
 #7. write a python program that greets the user differentlybased on the time of day?
 while True:
     
@@ -353,8 +353,10 @@ while True:
     if m=='no':
         print('thankyou have a grate wishes byee')
         break
-     
- 
+'''     
+#8. write a python program that calculates the finel price of an iteam after applying a discount coupon code?
+
+
         
      
 
