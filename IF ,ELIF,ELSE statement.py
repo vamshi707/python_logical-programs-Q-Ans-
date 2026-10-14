@@ -1,5 +1,5 @@
 # IF ,ELIF,ELSE statement(basic project)
-'''
+
 #1 .wtite a python program that converts a temperature in calsius to fahrenheit or vice versa based in user input?
 print(('1.fahrenheit report'))
 print(('2.celsius report'))
@@ -170,11 +170,11 @@ print('        welcome to my fashion shop')
 print()
 
 while True:
-    print(f'' choose the dress:
+    print(f''' choose the dress:
 
                1.shirt
                2.pant
-               3.sarees'')
+               3.sarees''')
     
     choose=input('please enter the option wt u want like 1/2/3 :')
     if choose=='1':
@@ -387,7 +387,7 @@ if choose=='1':
 else:
     print('invalide')
 
-'''
+
 #9. write a python program that calculates and prints the grade based on a given score but also validates input score?
 
 score=int(input('enter a score run number 1 to 100'))
@@ -406,8 +406,20 @@ elif score>=0 and score<=19:
 else:
     print('invalide score')
 
-    
-    
+  
+#10  write python program that determine the number of days in the given months?
+
+n=input('enter a months name')
+
+if n=='january' or n=='march' or n=='may' or n=='july':
+    print('31 days in ',n)
+elif n=='oct' or n=='december':
+    print('31 days in',n)
+elif n=='febuary':
+    print('28 days in',n)
+
+else:
+    print('30 days in',n)
  
     
     
