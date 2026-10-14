@@ -353,7 +353,7 @@ while True:
     if m=='no':
         print('thankyou have a grate wishes byee')
         break
-'''     
+   
 #8. write a python program that calculates the finel price of an item after applying a discount coupon code?
 
 print('1.tv')
@@ -368,7 +368,7 @@ if choose=='1':
     m=int(input('enter the product discount percentage'))
     c=int(input('enter the coupon code'))
     if r==c:
-        print('your coupon is verified and successfull updated done rs:',cop)
+        print('your coupon is verified and successfull added done rs:',cop)
     else:
         print('the coupon id is invalid')
         
@@ -387,7 +387,25 @@ if choose=='1':
 else:
     print('invalide')
 
+'''
+#9. write a python program that calculates and prints the grade based on a given score but also validates input score?
+
+score=int(input('enter a score run number 1 to 100'))
+
+if score>=90 and score<=100:
+    print('A grade')
+elif score>=70 and score<=89:
     
+    print('B grade')
+elif score>=50 and score<=69:
+    print('c grade')
+elif score>=20 and score<=49:
+    print('D grade')
+elif score>=0 and score<=19:
+    print('E grade score is low')
+else:
+    print('invalide score')
+
     
     
  
