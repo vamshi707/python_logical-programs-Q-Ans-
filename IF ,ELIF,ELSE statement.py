@@ -190,9 +190,7 @@ while True:
         elif n=='green':
             print(' thank you choose the ur feverate color:',n)
 
-        m=input('please choose the size s/m/xl').lower()
-            
-            
+        m=input('please choose the size s/m/xl').lower()                       
         if m=='s':
             print('you choosing ',n,' :color shirt and size :',m)
         elif m=='m':
