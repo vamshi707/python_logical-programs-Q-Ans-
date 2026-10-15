@@ -420,26 +420,34 @@ elif n=='febuary':
 
 else:
     print('30 days in',n)
+
+#10. write a python program that calculator a person body mass index and categorizes it into different categorizes(underweight,normal weight overweight obese?
+
+n=int(input('enter a number 1 to 150 kg'))
+
+if n<=25 and n>0:
+        print('under weight')
+elif n>=26 and n<=60:
+        print('normal weight')
+elif n>=61 and n<=95:
+        print('tiny heavy weight')
+elif n>=95 and n<=150:
+        print('heavy weight')
+else:
+        print('invalid')
+    
  
-    
-    
-    
+#11. write a python program that convert letter grades (A,B,C,D,F) to there equlivalent GPA values?
 
+n=int(input('enter a grade marks 1 to 100:'))
 
-        
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if n<=100 and n>=80:
+    print('A grade')
+elif n>=60 and n<=79:
+    print('B grade')
+elif n>=40 and n<=59:
+    print('c grade')
+elif n>=35 and n<=39:
+    print('D grade')
+else:
+    print('fail')
